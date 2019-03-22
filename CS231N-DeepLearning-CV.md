@@ -2,6 +2,7 @@
 # Reference
 - [课程讲义作业](http://vision.stanford.edu/teaching/cs231n/syllabus.html)
 - [课程视频](https://space.bilibili.com/216720985/channel/detail?cid=32406)
+- [课程笔记翻译](https://zhuanlan.zhihu.com/p/21930884)
 
 ## 1 Introduction
 课程从回顾人类的进化历史开始讲述，生物进化开始加快的一个标志点就是生物进化处了视觉功能，视觉信息的理解也是非常困难的事情，人类大脑处理视觉的信息的部分占比超过了50%，数以亿计的神经元同时工作用于处理视觉信息。
