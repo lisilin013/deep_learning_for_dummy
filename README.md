@@ -3,8 +3,8 @@
 # Courses
 - [MIT深度学习导论课](https://www.bilibili.com/video/av39794099?from=search&seid=4828231138261393224)
 - [斯坦福李飞飞CS231N课程](https://space.bilibili.com/216720985/channel/detail?cid=32406)
-- CS31
-- CS231A
+- CS131、CS231A（CV课）
+- CS229（ML课）
 
 # Tools
 - [tensorflow course](https://github.com/machinelearningmindset/TensorFlow-Course)
