@@ -24,4 +24,6 @@
 
 如何比较两个image的相似性？一个朴素的想法是使用曼哈顿距离去描述。
 
+数据驱动方法：给计算机很多数据，然后实现学习算法，让计算机学习到每个类的外形。
+
 图像分类可以分解为两个过程，trainning和predicting，我们希望trainning是O(N)的，predicting是O(1)的，因为trainning我们可以在数据运算中心完成，predicting希望是能够实时运行的。但是KNN算法进行图像分类与此相反，它的trainning只需要记录数据是O(1)时间，predicting需要查找，时间是O(N)的。
