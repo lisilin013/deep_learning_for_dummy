@@ -19,3 +19,9 @@
 
 在计算机如何对图像进行更深层次的理解领域仍然存在有大量需要解决的问题，really amzaing！
 
+## 2 Image Classification
+图像分类的难点是semantic gap，就是由于摄像机视角、照明、object变形和遮挡的时候，image的pixels发生了很大的变化，但是image的语义并没有改变，object也没有改变。
+
+如何比较两个image的相似性？一个朴素的想法是使用曼哈顿距离去描述。
+
+图像分类可以分解为两个过程，trainning和predicting，我们希望trainning是O(N)的，predicting是O(1)的，因为trainning我们可以在数据运算中心完成，predicting希望是能够实时运行的。但是KNN算法进行图像分类与此相反，它的trainning只需要记录数据是O(1)时间，predicting需要查找，时间是O(N)的。
